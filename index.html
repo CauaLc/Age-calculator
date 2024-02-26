@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <link rel="shortcut icon" href="src/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/styles.css">
+    
+</head>
+<body>
+    <div class="container-principal">
+        <div class="container">
+            <div class="top-bar">
+                <form action="" class="idadeform" id="idadeForm">
+                    <div class="grupo-form">
+                        <label for="Dia">Dia</label>
+                        <input type="number" id="Dia" name="Dia" placeholder="DD">
+                            <div class="error derror"></div>
+                    </div>
+                    <div class="grupo-form">
+                        <label for="Mes">Mês</label>
+                        <input type="number" id="Mes" name="Mes" placeholder="MM">
+                            <div class="error merror"></div>
+                    </div>
+                    <div class="grupo-form">
+                        <label for="Ano">Ano</label>
+                        <input type="number" id="Ano" name="Ano" placeholder="YYYY">
+                            <div class="error aerror"></div>
+                    </div>
+
+                    <div class="buttonline">
+                        <button type="submit" class="arrow_button"><img src="src/img/icon-arrow.svg" alt="seta"></button>
+                    </div>
+
+                </form>
+                <div class="half-line">
+                    <div class="line"></div>
+                </div>
+
+            </div>
+            <div class="bottom-bar">
+                <div class="output anos">
+                    <span>_ _</span>
+                    <h1>Anos</h1>
+                </div>
+                <div class="output meses"><span>_ _</span> <h1>meses</h1></div>
+                <div class="output dias"><span>_ _</span><h1>dias</h1></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="src/js/script.js"></script>
+    <script src="src/js/check.js"></script>
+</body>
+</html>
